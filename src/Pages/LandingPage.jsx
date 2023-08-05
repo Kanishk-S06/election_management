@@ -1,8 +1,13 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import "./LandingPage.css";
-
+import { useNavigate } from "react-router";
 const LandingPage = () => {
+  const navigate = useNavigate();
+  const dashboardHandler = () => {
+    navigate("/dashboard");
+  };
+
   return (
     <>
       <Navbar></Navbar>
@@ -14,7 +19,11 @@ const LandingPage = () => {
               One Click solution to
               <p className="campaigning">Campaigning.</p>{" "}
             </p>{" "}
-            <button type="button" class="landing-started">
+            <button
+              type="button"
+              class="landing-started"
+              onClick={dashboardHandler}
+            >
               Get Started
             </button>
           </div>
@@ -34,10 +43,9 @@ const LandingPage = () => {
         <div class="row landing-below-div ">
           <div class="col">News Boarding</div>
           <div class="col">Script Analysis</div>
-          <div class="col">Social Media Campaign</div>
-          <div class="col">Social Media Campaign</div>
+          <div class="col">Promotional Analysis</div>
+          <div class="col">GIS Analysis</div>
         </div>
-        
       </div>
     </>
   );

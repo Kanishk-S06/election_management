@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import LandingPage from "./Pages/LandingPage";
+import Dashboard from "./Pages/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./Pages/Dashboard";
 

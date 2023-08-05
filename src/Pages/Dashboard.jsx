@@ -5,8 +5,9 @@ import Map from "../Google-Maps/Map_Api";
 export default function Dashboard() {
   return (
     <>
-    <NavbarHome></NavbarHome>
-    <Map></Map>
+      <NavbarHome></NavbarHome>
+      <Map></Map>
+
     </>
   );
 }
