@@ -40,7 +40,7 @@ function Map() {
           <Marker
             key={marker.id}
             position={{ lat: marker.lat, lng: marker.lng }}
-            onClick={handleClick()}
+            onClick={()=>handleClick()}
           />
         ))}
         {info && <InfoSection></InfoSection>}

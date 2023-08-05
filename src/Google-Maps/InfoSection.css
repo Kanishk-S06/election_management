@@ -1,4 +1,15 @@
-.container{
+/* .container{
     height: 50px;
     width: 50px;
+} */
+
+.sector-analysis-title{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    padding: 10px;
+}
+
+.accordion-div{
+    padding: 20px 80px;
 }
