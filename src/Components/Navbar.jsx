@@ -10,10 +10,10 @@ export default function Navbar() {
           <ul>
             <li>
               <button type="button" class="btn btn-outline-secondary">
-                Sign Up
+                Documentation
               </button>
               <button type="button" class="btn btn-outline-secondary">
-                Login
+                Get Started
               </button>
             </li>
           </ul>
