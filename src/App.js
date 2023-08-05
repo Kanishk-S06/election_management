@@ -2,15 +2,15 @@ import "./App.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import LandingPage from "./Pages/LandingPage";
-import Map from "./Google-Maps/Map_Api";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="/dashboard" element={<Map />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>
