@@ -1,10 +1,19 @@
 import React from "react";
 import "./InfoSection.css";
-const InfoSection = () => {
+import { ps, speech, regionalSpeech } from "../speech";
+const InfoSection = (props) => {
+  let problem = Object.values(ps);
+  let speechx = Object.values(speech);
+  let regspeech = Object.values(regionalSpeech);
+
   return (
     <>
       <div className="sector-analysis-title">Sector Analysis</div>
-      <div class="accordion accordion-flush accordion-div " id="accordionFlushExample">
+
+      <div
+        class="accordion accordion-flush accordion-div "
+        id="accordionFlushExample"
+      >
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button
@@ -24,12 +33,7 @@ const InfoSection = () => {
             aria-labelledby="flush-headingOne"
             data-bs-parent="#accordionFlushExample"
           >
-            <div class="accordion-body">
-              {/* Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first item's accordion body. */}
-              Kushal
-            </div>
+            <div class="accordion-body">{problem[(props.Index)-1]}</div>
           </div>
         </div>
         <div class="accordion-item">
@@ -51,13 +55,7 @@ const InfoSection = () => {
             aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionFlushExample"
           >
-            <div class="accordion-body">
-              {/* Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content. */}
-              Bhai
-            </div>
+            <div class="accordion-body">{speechx[(props.Index)-1]}</div>
           </div>
         </div>
         <div class="accordion-item">
@@ -79,15 +77,7 @@ const InfoSection = () => {
             aria-labelledby="flush-headingThree"
             data-bs-parent="#accordionFlushExample"
           >
-            <div class="accordion-body">
-              {/* Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application. */}
-              Zindabad
-            </div>
+            <div class="accordion-body">{regspeech[(props.Index)-1]}</div>
           </div>
         </div>
       </div>
