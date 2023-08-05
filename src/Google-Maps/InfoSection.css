@@ -3,19 +3,42 @@
     width: 50px;
 } */
 
-.sector-analysis-title{
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-    padding: 10px;
-
+.sector-analysis-title {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+  padding: 10px;
 }
 
-.accordion-div{
-    padding: 20px 80px;
-    /* position: absolute;
-    z-index: 9; */
-    margin-left: 200px;
+.accordion-div {
+  padding: 20px 80px;
+}
+
+.progress-bar-data {
+  /* display: flex; */
+}
+
+.progress-bar-div {
+  width: 95%;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.progress-div-1{
+    background-color: orange;
+}
+.progress-div-2{
+    background-color: green;
+
+}
+.progress-div-3{
+    background-color: yellow;
+
+}
+.progress-div-4{
+    background-color: red;
 
 
 }

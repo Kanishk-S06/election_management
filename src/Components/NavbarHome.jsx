@@ -6,13 +6,13 @@ export default function Navbar() {
     <>
       <nav class="navbar py-3 bg-body-tertiary navbar-bg ">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Navbar</span>
+          <span class="navbar-brand mb-0 h1">Campaign+</span>
           <ul>
             <li>
-              <button type="button" class="btn btn-outline-secondary">
+              <button type="button" class="btn">
                 Home
               </button>
-              <button type="button" class="btn btn-outline-secondary">
+              <button type="button" class="btn">
                 Get in Touch
               </button>
             </li>
