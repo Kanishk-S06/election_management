@@ -1,12 +1,13 @@
-import './App.css';
-import Map from './Google-Maps/Map_Api';
-import LandingPage from './Pages/LandingPage';
+
+import "./App.css";
+import LandingPage from "./Pages/LandingPage";
+
 
 function App() {
   return (
     <>
-    <Map></Map>
-  
+      <LandingPage></LandingPage>
+
     </>
   );
 }
