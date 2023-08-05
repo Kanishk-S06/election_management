@@ -2,9 +2,9 @@ import "./App.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import LandingPage from "./Pages/LandingPage";
-import Map from "./Google-Maps/Map_Api";
 import Dashboard from "./Pages/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
