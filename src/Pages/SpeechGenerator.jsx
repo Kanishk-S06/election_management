@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Speech_generator = () => {
+const SpeechGenerator = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Speech_generator = () => {
   )
 }
 
-export default Speech_generator
+export default Speech_generatG
